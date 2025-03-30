@@ -1,0 +1,8 @@
+# Ignore a pasta node_modules (onde as dependências são instaladas)
+node_modules/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos temporários
+tmp/
