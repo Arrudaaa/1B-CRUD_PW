@@ -9,5 +9,14 @@ module.exports = (sequelize, DataTypes) => {
                  type: DataTypes.INTEGER, 
              },
     });
+
+    Produto.associate = (models) => {
+        Produto.belongsTo(models.Materia, {
+          foreignKey: "materiaId",
+          as: "Materia", 
+        });
+      };
+
+
     return Professor;
 };

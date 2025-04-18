@@ -6,13 +6,13 @@ module.exports = (sequelize, DataTypes) => {
         },
     });
 
-    /* 
+    
       Categoria.associate = (models) => { 
         Categoria.hasMany(models.Produto, { 
           foreignKey: "categoriaId", 
           as: "produtos", 
         }); 
-      };*/
+      };
     return Categoria;
 
 }; 
