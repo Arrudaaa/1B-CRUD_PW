@@ -39,6 +39,7 @@ router.get("/edit/:id", async (req, res) => {
     });
 });
 
+
 //edit curso - no bd
 router.post("/edit/:id", async(req, res) =>{
     await Curso.update(

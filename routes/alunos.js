@@ -34,6 +34,13 @@ router.get("/add",  async (req, res) => {
   }
 });
 
+
+
+
+
+
+
+
 // Adicionar um novo aluno
 router.post("/add",  async (req, res) => {
   try {
